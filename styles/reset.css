@@ -1,5 +1,3 @@
-/* user agent stylesheet 초기화 */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,4 +35,17 @@ button {
   padding: unset;
   background-color: unset;
   cursor: pointer;
+}
+
+p {
+  color: #6b6b6b;
+  font-family: Pretendard;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  word-break: keep-all;
+
+  @media (max-width: 767px) {
+    font-size: 1.5rem;
+  }
 }
